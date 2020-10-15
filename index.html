@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Alvarez Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">Home</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon navbar-light"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#about" class="nav-link active">About Me</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <h1>Gabriel Alvarez</h1>
+            <h2>Software Developer</h2>
+        </header>
+
+        <section>
+            <a id="about">
+                <h1 class="section-title">About Me</h1>
+            </a>
+            <br>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <a id="projects">
+                <h1 class="section-title">Projects</h1>
+            </a>
+            <div class="row">
+                <div class="col-md-3 projects">
+                    <a href="https://gabalv.github.io/HTMLRegisterPage-SDEFA/" target="_blank">
+                        <img src="assets/register.png" alt="HTML/CSS Register Page">
+                        <h6>HTML/CSS Register Page</h6>
+                        <p>A register page made to learn HTML and CSS.</p>
+                    </a>
+                </div>
+                <div class="col-md-3 projects">
+                    <a href="https://codepen.io/gabalv22/full/oNbRzav" target="_blank">
+                        <img src="assets/lego.png" alt="CSS Lego Man">
+                        <h6>CSS Creature</h6>
+                        <p>A lego man made only of pure CSS.</p>
+                    </a>
+                </div>
+                <div class="col-md-3 projects">
+                    <a href="https://github.com/gabalv/PairProgramming_ConsoleGame" target="_blank">
+                        <img src="assets/ConsoleGame.png" alt="Console Game">
+                        <h6>Pair Programming Console Game</h6>
+                        <p>A console app game made by a team of two. I also wrote original music for it, if you're
+                            interested in that.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 projects">
+                    <a href="https://github.com/gabalv/GoldBadge_ConsoleApplicationChallenges" target="_blank">
+                        <img src="assets/BusinessChallenges.png" alt="Business Challenges">
+                        <h6>Console App Business Challenges</h6>
+                        <p>A series of business challenges solved by console apps.</p>
+                    </a>
+                </div>
+                <div class="col-md-3 projects">
+                    <a href="https://github.com/mobara121/Group_API_Project" target="_blank">
+                    <img src="assets/LiquorBarn.png" alt="Group API Project">
+                    <h6>Liquor Barn</h6>
+                    <p>An ASP.NET API designed by our team to store cocktail recipes, present lists of cocktails that contain a particular spirit, and to create new and unique cocktails.</p>
+                </a>
+                </div>
+                <div class="col-md-3 projects">
+                    <a href="https://wordstockroom.azurewebsites.net/" target="_blank">
+                        <img src="assets/WordStockRoom.png" alt="WordStockRoom">
+                        <h6>WordStockRoom</h6>
+                        <p>An ASP.NET MVC designed to help people learn and practice vocabulary when becoming familiar with a language.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <a id="contact">
+                <h1 class="section-title">Contact</h1>
+            </a>
+            <br>
+            <div class="contact-form">
+                <form id="contact-form" method="POST" action="contact-form-handler.php">
+                    <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                    <br>
+                    <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                    <br>
+                    <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
+                    <br>
+                    <input type="submit" class="form-control submit" value="Send">
+                </form>
+            </div>
+            <br>
+            <div class="links">
+                <a href="https://github.com/gabalv" target="_blank"><img id="github" src="assets/github.png"
+                        alt="GitHub"></a>
+            </div>
+            <br>
+        </section>
+
+    </div>
+    <footer>
+        <span>Copyright &copy; 2020 Gabriel Alvarez</span>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
