@@ -43,6 +43,10 @@ footer {
     width: 5em;
 }
 
+#CSharp {
+    height: 40em;
+}
+
 .navbar {
     background-color: #09001C;
     box-shadow: 0 .5em 100px 50px grey;
@@ -75,6 +79,11 @@ footer {
 .section-title {
     text-align: center;
     color: #421B96;
+}
+
+.skills {
+    font-size: 3em;
+    color: 
 }
 
 .row {
