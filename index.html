@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <div id="container">
+    <div id="wrapper">
         <nav class="navbar navbar-dark navbar-expand-md">
             <div class="container">
-                <a href="index.html" class="navbar-brand">Home</a>
+                <a href="index.html" class="navbar-brand">GA</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon navbar-light"></span>
@@ -41,7 +41,7 @@
                 <h1 class="section-title">About Me</h1>
             </a>
             <br>
-
+            
         </section>
 
         <hr>
@@ -54,21 +54,24 @@
                 <div class="col-md-3 projects">
                     <a href="https://gabalv.github.io/HTMLRegisterPage-SDEFA/" target="_blank">
                         <img src="assets/register.png" alt="HTML/CSS Register Page">
-                        <h6>HTML/CSS Register Page</h6>
+                        <h5>HTML/CSS Register Page</h5>
+                        <hr>
                         <p>A register page made to learn HTML and CSS.</p>
                     </a>
                 </div>
                 <div class="col-md-3 projects">
                     <a href="https://codepen.io/gabalv22/full/oNbRzav" target="_blank">
                         <img src="assets/lego.png" alt="CSS Lego Man">
-                        <h6>CSS Creature</h6>
+                        <h5>CSS Creature</h5>
+                        <hr>
                         <p>A lego man made only of pure CSS.</p>
                     </a>
                 </div>
                 <div class="col-md-3 projects">
                     <a href="https://github.com/gabalv/PairProgramming_ConsoleGame" target="_blank">
                         <img src="assets/ConsoleGame.png" alt="Console Game">
-                        <h6>Pair Programming Console Game</h6>
+                        <h5>Pair Programming Console Game</h5>
+                        <hr>
                         <p>A console app game made by a team of two. I also wrote original music for it, if you're
                             interested in that.</p>
                     </a>
@@ -78,22 +81,26 @@
                 <div class="col-md-3 projects">
                     <a href="https://github.com/gabalv/GoldBadge_ConsoleApplicationChallenges" target="_blank">
                         <img src="assets/BusinessChallenges.png" alt="Business Challenges">
-                        <h6>Console App Business Challenges</h6>
+                        <h5>Console App Business Challenges</h5>
+                        <hr>
                         <p>A series of business challenges solved by console apps.</p>
                     </a>
                 </div>
                 <div class="col-md-3 projects">
                     <a href="https://github.com/mobara121/Group_API_Project" target="_blank">
                     <img src="assets/LiquorBarn.png" alt="Group API Project">
-                    <h6>Liquor Barn</h6>
+                    <h5>Liquor Barn</h5>
+                    <hr>
                     <p>An ASP.NET API designed by our team to store cocktail recipes, present lists of cocktails that contain a particular spirit, and to create new and unique cocktails.</p>
                 </a>
                 </div>
                 <div class="col-md-3 projects">
                     <a href="https://wordstockroom.azurewebsites.net/" target="_blank">
                         <img src="assets/WordStockRoom.png" alt="WordStockRoom">
-                        <h6>WordStockRoom</h6>
+                        <h5>WordStockRoom</h5>
+                        <hr>
                         <p>An ASP.NET MVC designed to help people learn and practice vocabulary when becoming familiar with a language.</p>
+                        <a href="https://github.com/gabalv/WordStockRoomMVC" target="_blank">For the GitHub repository, click on me.</a>
                     </a>
                 </div>
             </div>
@@ -107,13 +114,14 @@
             </a>
             <br>
             <div class="contact-form">
-                <form id="contact-form" method="POST" action="contact-form-handler.php">
+                <form id="contact-form" method="POST" action="//formspree.io/galvarez2238@gmail.com">
                     <input name="name" type="text" class="form-control" placeholder="Your Name" required>
                     <br>
-                    <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                    <input name="_replyto" type="email" class="form-control" placeholder="Your Email" required>
                     <br>
                     <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
                     <br>
+                    <input name="_gotcha" type="text" style="display: none">
                     <input type="submit" class="form-control submit" value="Send">
                 </form>
             </div>
